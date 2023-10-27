@@ -1,0 +1,5 @@
+<form (submit)="onSubmit($event)">
+    <p>Name:<input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}"></p> 
+    <p>Level:<input type="number" [(ngModel)]="level" [ngModelOptions]="{standalone: true}"></p>
+    <button type="submit">Submit</button>
+</form>
