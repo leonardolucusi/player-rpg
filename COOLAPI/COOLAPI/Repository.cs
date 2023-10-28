@@ -17,17 +17,18 @@ namespace COOLAPI
             return await _context.Players.ToListAsync();
         }
         
-        public async Task<Player> GetByIdAsync(long id)
+        public async Task<Player> GetByIdAsync(long? id)
         {
-            return await _context.Players.FindAsync(id);
+            var player = await _context.Players.FindAsync(id);
+            if (player == null)
+            {
+                throw new Exception("Jogador não encontrado");
+            }
+            return player;
         }
         
         public async Task AddAsync(Player player)
         {
-            Console.WriteLine(player);
-            // player.Id = null;
-            // player.Name = "ADADADADADA";
-            // player.Level = 67;
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
         }
@@ -46,11 +47,6 @@ namespace COOLAPI
                 _context.Players.Remove(player);
                 await _context.SaveChangesAsync();
             }
-        }
-
-        public Task<Player> GetByIdAsync(long? id)
-        {
-            throw new NotImplementedException();
         }
     }
 }

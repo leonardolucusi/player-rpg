@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\COOLAPI.csproj": {}
+    "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\COOLAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\COOLAPI.csproj": {
+    "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\COOLAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
         "projectName": "COOLAPI",
-        "projectPath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
+        "projectPath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
         "packagesPath": "C:\\Users\\lucus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\obj\\",
+        "outputPath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

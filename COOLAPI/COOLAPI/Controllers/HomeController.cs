@@ -40,7 +40,8 @@ namespace COOLAPI.Controllers
             }
             catch (Exception ex)
             {
-                throw ex;
+                await Console.Out.WriteLineAsync(ex.Message);
+                throw;
             }
         }
 
@@ -55,6 +56,7 @@ namespace COOLAPI.Controllers
             }
             catch (Exception ex)
             {
+                await Console.Out.WriteLineAsync(ex.Message);
                 throw;
             }
         }
@@ -81,7 +83,8 @@ namespace COOLAPI.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "Internal server error");
+                await Console.Out.WriteLineAsync(ex.Message);
+                throw;
             }
         }
 
@@ -92,7 +95,7 @@ namespace COOLAPI.Controllers
             try
             {
                 var player = await _playerRepository.GetByIdAsync(id);
-
+                Console.WriteLine(player);
                 if (player == null)
                 {
                     return NotFound();
@@ -103,7 +106,8 @@ namespace COOLAPI.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "Internal server error");
+                await Console.Out.WriteLineAsync(ex.Message);
+                throw;
             }
         }
     }

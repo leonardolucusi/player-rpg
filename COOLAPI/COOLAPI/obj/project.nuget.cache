@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wICx3oMuaKMVHiZASP9Qt/XawLZj7dy/Mr1/Z4lTa32YMdAXWtNNskP5fsko0a7myrYuFOR6otI+o74j08c7Lw==",
+  "dgSpecHash": "sF8Edw9awm2lRsPS2z8lmr2sYAY0fwAWWzSFPo8+VLNwr1oyMc5hivj1TEzw61VtFFlLxLwTvYjvX/O2yj2igw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\PlayerRPG & COOLAPI\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
+  "projectFilePath": "C:\\Users\\lucus\\OneDrive\\Área de Trabalho\\player-rpg\\COOLAPI\\COOLAPI\\COOLAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucus\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\lucus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -150,7 +150,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.WebApi.Core 5.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net7.0"

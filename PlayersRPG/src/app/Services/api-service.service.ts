@@ -8,13 +8,13 @@ import { catchError } from 'rxjs/operators';
 export class ApiService {
   private apiUrl = 'https://localhost:7114/Home';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http : HttpClient) { }
 
-  getAllPlayers(): Observable<any> {
+  getAllPlayers() : Observable<any> {
     return this.http.get(`${this.apiUrl}`);
   }
 
-  createPlayer(player: any): Observable<any> {
+  createPlayer(player: any) : Observable<any> {
     return this.http.post(`${this.apiUrl}`, player, ).pipe(
       catchError((error: any) => {
         console.log(error);
@@ -23,7 +23,7 @@ export class ApiService {
     );
   }
   
-  deletePlayer(id: any):Observable<any>{
+  deletePlayer(id: any) : Observable<any>{
     return this.http.delete(`${this.apiUrl}/${id}`);
   }
 
